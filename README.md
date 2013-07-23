@@ -8,7 +8,7 @@ STEP 1: EMBEDING METACAPTCHA INTO THE FORM
 3. Add a hidden field named metacaptchaField into the form and set it ID to metacaptchaField
 4. Porting initialize_captcha in metacaptcha_lib.php to javascript
 
-  	a. load the script from this URL<script src="//rabbit.cs.pdx.edu/headwinds_new/application/js/metacaptcha.js"
+  	a. load the script from this URL "//rabbit.cs.pdx.edu/headwinds_new/application/js/metacaptcha_drupal.js
 	
 	b. Call initialize_metacaptcha('$processPath','$formID') in Javasript( we need to pass these arguments from PHP to Javascript)
 
