@@ -10,7 +10,7 @@ STEP 1: EMBEDING METACAPTCHA INTO THE FORM
 
   	a. load the script from this URL "//rabbit.cs.pdx.edu/headwinds_new/application/js/metacaptcha_drupal.js
 	
-	b. Call initialize_metacaptcha('$processPath','$formID') in Javasript( we need to pass these arguments from PHP to Javascript)
+	b. Call initialize_metacaptcha('$processPath','$formID') in Javasript( we need to pass its arguments from PHP to Javascript)
 	 this function should be placed inside jQuery(document).ready() so that it will be called only after all HTML elements has been loaded( To be more precise, the DOM hiearachy has been constructed).
 
 STEP 2 : VALIDATION
