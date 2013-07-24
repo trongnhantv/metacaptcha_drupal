@@ -14,3 +14,6 @@ STEP 1: EMBEDING METACAPTCHA INTO THE FORM
 
 STEP 2 : VALIDATION
 ...
+
+TIPS:
+	Install the "devel" module for better debugging.
